@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "0.3.39"
+  version: "0.4.0"
   python_min: '3.10'
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/x/xorq/xorq-${{ version }}.tar.gz
-  sha256: 0ae1d30480bef060e0681f8b0cbba5b8a79b20a2af46b5757eeb168968432434
+  sha256: 2d0ea30cf9b60ee11cc7c51baf24c24668773e56199058b934b3bee363cffd2c
   patches:
     - patches/0001-strip-cli-tool-deps-for-conda-forge.patch
 
